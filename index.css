@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui o padding e a borda nas dimensões totais do elemento */
+}
+
+body { 
+    background-color: rgb(238, 170, 170); /* Define uma cor de fundo rosa claro para o corpo */
+    font-family: 'Arial', sans-serif; /* Define a fonte do texto como Arial */
+    color: the; /* Parece um erro, deveria definir uma cor válida */
+    line-height: 1.6; /* Define a altura da linha para facilitar a leitura */
+    background-color: black; /* Sobrescreve a cor de fundo anterior, definindo para preto */
+}
+
+header {
+    background-color: rgb(250, 7, 7); /* Define uma cor de fundo vermelha para o cabeçalho */
+    color: rgb(0, 0, 0); /* Define a cor do texto no cabeçalho como preto */
+    padding: 15px 0; /* Adiciona preenchimento vertical ao cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+header .logo h1 {
+    margin-bottom: 5px; /* Adiciona uma margem inferior ao título da logo */
+    font-size: 36px; /* Define o tamanho da fonte do título */
+}
+
+header nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe a lista em linha, como um flex container */
+    justify-content: center; /* Centraliza os itens da lista */
+}
+
+header nav ul li {
+    margin: 0 15px; /* Adiciona margem lateral entre os itens do menu */
+}
+
+header nav ul li a {
+    color: #000000; /* Define a cor dos links como preto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Define o tamanho da fonte dos links */
+}
+
+#hero {
+    background-image: url(./R.jpeg); /* Define uma imagem de fundo para a seção hero */
+    background-size: cover; /* Faz a imagem cobrir toda a área disponível */
+    background-position: center; /* Centraliza a imagem de fundo */
+    color: rgb(143, 17, 17); /* Define a cor do texto dentro da seção hero */
+    text-align: center; /* Centraliza o texto da seção hero */
+    padding: 100px 20px; /* Adiciona preenchimento ao redor do conteúdo da seção */
+}
+
+#hero h2 {
+    font-size: 48px; /* Define o tamanho da fonte do subtítulo */
+    margin-bottom: 10px; /* Adiciona uma margem inferior ao subtítulo */
+}
+
+#hero p {
+    font-size: 24px; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 20px; /* Adiciona uma margem inferior ao parágrafo */
+}
+
+.btn-whatsapp {
+    background-color: #ff0000; /* Define uma cor de fundo vermelha para o botão */
+    color: #000000; /* Define a cor do texto do botão como preto */
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    text-decoration: none; /* Remove o sublinhado do texto do botão */
+    font-size: 18px; /* Define o tamanho da fonte do botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+}
+
+.container {
+    padding: 50px 20px; /* Adiciona preenchimento ao redor do conteúdo dentro do container */
+    color: #e4dfdf; /* Define a cor do texto dentro do container */
+    max-width: 1200px; /* Define uma largura máxima para o container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+h2 {
+    text-align: center; /* Centraliza o texto dos cabeçalhos h2 */
+    margin-bottom: 20px; /* Adiciona uma margem inferior ao cabeçalho h2 */
+    font-size: 32px; /* Define o tamanho da fonte dos cabeçalhos h2 */
+    color: rgb(216, 159, 4); /* Define a cor do texto dos cabeçalhos h2 */
+}
+
+p {
+    text-align: center; /* Centraliza o texto dos parágrafos */
+    margin-bottom: 20px; /* Adiciona uma margem inferior aos parágrafos */
+    font-size: 18px; /* Define o tamanho da fonte dos parágrafos */
+}
+
+#menu .menu-item {
+    background-color: rgb(250, 6, 6); /* Define uma cor de fundo vermelha para os itens do menu */
+    padding: 20px; /* Adiciona preenchimento ao redor de cada item do menu */
+    margin-bottom: 20px; /* Adiciona uma margem inferior entre os itens do menu */
+    border-radius: 5px; /* Arredonda as bordas dos itens do menu */
+    box-shadow: 0 0 10px rgba(75, 50, 50, 0.1); /* Adiciona uma sombra leve ao item do menu */
+    display: flex; /* Usa o layout flex para alinhar os itens do menu */
+    justify-content: space-between; /* Distribui espaço entre os itens do menu */
+    align-items: center; /* Alinha os itens do menu verticalmente ao centro */
+}
+
+#menu .menu-item h3 {
+    font-size: 24px; /* Define o tamanho da fonte dos cabeçalhos h3 dentro dos itens do menu */
+    color: rgb(0, 0, 0); /* Define a cor do texto dos cabeçalhos h3 como preto */
+}
+
+#menu .menu-item p {
+    flex: 1; /* Permite que o parágrafo use o espaço restante disponível */
+    margin: 0 20px; /* Adiciona margem lateral ao parágrafo */
+}
+
+#menu .menu-item span {
+    font-size: 20px; /* Define o tamanho da fonte do texto dentro do span */
+    color: rgb(3, 1, 1); /* Define a cor do texto dentro do span */
+}
+
+footer {
+    background-color: #ffffff; /* Define a cor de fundo do rodapé como branco */
+    color: rgb(0, 0, 0); /* Define a cor do texto no rodapé como preto */
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    padding: 15px 0; /* Adiciona preenchimento vertical ao rodapé */
+}
+
+h4 {
+    background-color: #ff0000; /* Define a cor de fundo dos cabeçalhos h4 como vermelho */
+}
+
+h2 {
+    color: #fc0303; /* Define a cor do texto dos cabeçalhos h2 como um vermelho mais claro */
+    background-color: #ffd20a; /* Define a cor de fundo dos cabeçalhos h2 como amarelo */
+}
